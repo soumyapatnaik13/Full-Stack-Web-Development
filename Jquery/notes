@@ -1,0 +1,11 @@
+JavaScript is being used in the Chrome tools.
+ Many options were introduced into that specific environment 
+ and are too wonkish. Even relatively smaller functionalities 
+ require verbose writing, so jQuery was introduced. 
+ It makes JS tasks easier.
+
+Simply when we write:
+document.querySelector("h1") == $("h1") == jQuery("h1")
+
+jQuery is a library, which means some developers have already written
+ the code, and we can just use it by implementing the library.

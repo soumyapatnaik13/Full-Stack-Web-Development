@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soumya",
+  "license": "ISC",
+  "dependencies": {
+    "sillyname": "^0.1.0",
+    "superhero": "^2.14.31",
+    "superheroes": "^4.0.0"
+  }
+}

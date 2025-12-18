@@ -1,0 +1,6 @@
+/*
+1.REPL = Read–Eval–Print–Loop
+It’s an interactive programming environment that comes with Node.js.
+When you type node in your terminal (without a file), you enter the 
+REPL mode.
+*/

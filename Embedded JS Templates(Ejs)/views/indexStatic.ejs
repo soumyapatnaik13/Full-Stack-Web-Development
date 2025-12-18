@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tagesablauf Formular</title>
+</head>
+<body>
+  <h1>Tagesablauf Formular</h1>
+
+  <!-- This form will send a POST request to the /submit path when submitted -->
+  <form action="/submit" method="post">
+    <label for="username">Name:</label>
+    <!-- The 'name' attribute is used by the server to identify this data field -->
+    <input type="text" id="username" name="username" required />
+    <br><br>
+
+    
+    <label for="weekDays">Weekday:</label>
+    <input type="text" id="weekDays" name="weekDays" placeholder="e.g. Monday" required />
+    <br><br>
+
+   
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+This is a simple project I have created to check 
+whether backend and frontend are perfectly incorporated or not.
+ So this is how the code works from the developer POV:
+
+I have created an HTML tag where I have defined the logic, 
+where a form tag is created which has 2 attributes:
+
+Endpoint (the door at which the port is employed to listen to the query).
+
+HTTP method (at which method it got submitted).
+ When I have the access of the body through middleware, 
+ this method is entitled to that method.
+
+Inside that, I have created 2 tags,
+ and the input tag has an attribute named as email, 
+ which would be accessible once the request body has complied with 
+ the body parser middleware.
+
+In the index.js, I have added and implemented npm.
+
+Step 1: Define the port (where the server will listen).
+
+Then add all the essential tools of npm.
+
+Use 2 HTTP methods:
+
+For GET: I have used a file directory so that 
+the HTML part will be rendered 
+as soon as the user lands on the server vicinity.
+
+For POST: Define the set with submit method == form tag and
+ add the middleware(i have used body parser which is a pre-processing 
+ types), whose role is to govern the preemptive strike 
+ through the req.body and display the value pressed by the user.
+
+And finally, Postman is being used to stimulate the user behaviour.

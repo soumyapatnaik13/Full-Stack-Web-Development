@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dein Tagesablauf</title>
+</head>
+<body>
+    <h1>Tagesablauf</h1>
+
+    <% if (week >= 0 && week <= 4) { %>
+        <h2>Willkommen zu <%= name %>'s Wochentagen</h2>
+        <p>
+            Am Wochentag klingelt der Wecker um sieben Uhr. Ich stehe um halb acht auf,
+            gehe ins Badezimmer und putze mir die Zähne. Ich bereite das Frühstück vor
+            und gehe dann eine halbe Stunde joggen. Um neun Uhr fahre ich mit dem Bus
+            zur Universität. Der Unterricht beginnt um zehn Uhr. Danach mache ich eine
+            kleine Pause und esse einen Apfel. Um 13 Uhr ist Mittagspause und ich esse
+            zu Mittag. Der Unterricht beginnt wieder um 14 Uhr. Um 16 Uhr mache ich
+            eine Kaffeepause. Um Viertel vor fünf gehe ich nach Hause zurück. Um halb
+            sieben treffe ich meine Freunde. Um halb acht bereite ich das Abendessen zu.
+            Um 20 Uhr esse ich zu Abend. Danach beantworte ich meine E-Mails. Um halb
+            elf gehe ich ins Bett.
+        </p>
+    <% } else if (week === 5 || week === 6) { %>
+        
+        <h2>Willkommen an <%= name %>'s Wochenende</h2>
+        <p>
+            Am Wochenende koche ich gern, höre Musik und lese ein Buch.
+        </p>
+
+    <% } else { %>
+        
+        <h2>Ungültige Eingabe</h2>
+        <p>Bitte geben Sie einen gültigen Wochentag auf Englisch ein (z.B. Monday, Tuesday, etc.).</p>
+    
+    <% } %>
+    
+</body>
+</html>
